@@ -125,6 +125,52 @@ export default function BentoGrid() {
         </button>
       </div>
 
+      {/* POST APP */}
+      <div className="bg-white p-4 rounded-xl shadow col-span-1 text-center">
+        <h3 className="text-lg font-semibold mb-2">Post App</h3>
+        <p className="text-sm text-gray-600">Aplikasi untuk berbagi postingan dan ide</p>
+      </div>
+
+      {/* MANAJEMEN APP */}
+      <div className="bg-white p-4 rounded-xl shadow col-span-1 text-center">
+        <h3 className="text-lg font-semibold mb-2">Manajemen App</h3>
+        <p className="text-sm text-gray-600">Kendalikan inventori, pengguna, dan laporan</p>
+      </div>
+
+      {/* LIKO CLASS */}
+      <div className="bg-white p-4 rounded-xl shadow col-span-1 text-center">
+        <h3 className="text-lg font-semibold mb-2">Liko Class</h3>
+        <p className="text-sm text-gray-600">Kelas pembelajaran interaktif</p>
+      </div>
+
+      {/* PROFILE */}
+      <div className="bg-white p-4 rounded-xl shadow col-span-1 text-center">
+        <img
+          src="https://via.placeholder.com/80" // Ganti dengan URL gambar profil kamu
+          alt="Profile"
+          className="w-20 h-20 rounded-full mx-auto mb-2"
+        />
+        <h3 className="text-lg font-semibold">Midori</h3>
+        <div className="mt-2">
+          <a
+            href="https://example.com/cv"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 hover:underline block"
+          >
+            CV
+          </a>
+          <a
+            href="https://example.com/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 hover:underline block"
+          >
+            Portofolio
+          </a>
+        </div>
+      </div>
+
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={() => setModalIsOpen(false)}
